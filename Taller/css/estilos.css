@@ -1,0 +1,29 @@
+*{
+	padding: o;
+	margin: o;
+}
+body{
+	font: Arial, helvetica, sans-serif;
+	background: #05B910;
+}
+div.REGISTRAR{
+	width: 90%;
+	padding: 1em;
+}
+header.PRINCIPAL, nav.menuPrincipal, section.galeriaPrincipal{
+	background-color: red; 
+	width: 90%;
+	margin: 0 auto; /*permite centrar la aplicación*/
+}
+nav.menuPrincipal{
+	margin-top: 2px;
+	padding: 1em;
+	}
+
+
+section.galeriaPrincipal{
+	margin-top: 2px;
+	height: 250px;
+	background-color: blue;
+	
+}
