@@ -27,6 +27,15 @@ header.cabeceraPrincipal h1{
 	width: 20%;
 	display: inline-block;
 }
+.cabeceraPrincipal .logo{
+    margin-bottom: 20px;
+    text-transform:  uppercase;
+    letter-spacing: 3px;
+    width: 20%
+    display: inline-block;
+    padding: 1em 0;
+}
+
 header.cabeceraPrincipal section.seccionCabecera{
 	width: 70%;
 	display: inline-block;
@@ -70,30 +79,39 @@ section.galeriaPrincipal{
 		margin-top: 50px;
 		position: relative;
 }
-section.galeriaPrinicpal img{
+.galeriaPrinicpal img{
     width: 100%;
     height: 100%;
+    border: 5px;
+    border-radius: 50%;
 
 }
 main{
     text-align: center;
 	background-color: #ffffff;
+    justify-content: center;
+
 }
 section.articulo{
     width: 48%;
     display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 section.noticias{
 	display: flex;
     background: #ffffff;
     text-align: justify;
+    flex-wrap: wrap;
 }
 .noticias img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
 }
-.noticias .contenedor-texto{
+.noticias .contenedor1{
     padding: 20px;
     width: 90%;
     display: flex;
